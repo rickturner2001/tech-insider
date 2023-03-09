@@ -34,18 +34,17 @@ export default function Home() {
           <p>
             Hello and welcome to my tech blog! I&apos;m thrilled to be sharing
             my passion for web development and programming with you all. My name
-            is <span className="text-gray-800 font-bold">Rick</span>, and I am a
-            web developer and a true enthusiast of all things tech. I&apos;ve
-            always been fascinated by the world of technology and how it has the
-            power to make a positive impact on our daily lives. Through this
-            blog, I want to share my experiences, projects, and insights with
-            the wider tech community. Whether you&apos;re a beginner just
-            starting out or a seasoned professional looking to learn something
-            new, I hope to provide valuable and informative content that will
-            inspire and encourage you in your own tech journey. So, sit back,
-            grab a cup of coffee, and let&apos;s dive into the world of tech
-            together! I can&apos;t wait to share my thoughts and ideas with you
-            all.
+            is <strong>Rick</strong>, and I am a web developer and a true
+            enthusiast of all things tech. I&apos;ve always been fascinated by
+            the world of technology and how it has the power to make a positive
+            impact on our daily lives. Through this blog, I want to share my
+            experiences, projects, and insights with the wider tech community.
+            Whether you&apos;re a beginner just starting out or a seasoned
+            professional looking to learn something new, I hope to provide
+            valuable and informative content that will inspire and encourage you
+            in your own tech journey. So, sit back, grab a cup of coffee, and
+            let&apos;s dive into the world of tech together! I can&apos;t wait
+            to share my thoughts and ideas with you all.
           </p>
           <br />
           <Link
@@ -103,7 +102,7 @@ export default function Home() {
             <span className="underline underline-offset-8 decoration-2 decoration-wavy decoration-red-500">
               typesafe
             </span>{" "}
-            and scalable APIs, and <strong>Tailwind</strong>for styling my
+            and scalable APIs, and <strong>Tailwind</strong> for styling my
             projects with ease.
           </p>
           <Link

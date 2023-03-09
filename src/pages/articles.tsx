@@ -7,18 +7,6 @@ const articles = [
     href: "/articles/python-essentials/one",
     dateCreated: new Date("2023-02-01"),
   },
-  {
-    title: "Maximizing Productivity: Essential Tips for Python Developers",
-    body: "From automating repetitive tasks to using the right libraries, we will explore the strategies that can make you more efficient and effective in your work. Whether you're a seasoned veteran or a beginner, this guide will provide you with the knowledge and resources you need to take your Python skills to the next level",
-    href: "/articles/python-essentials/one",
-    dateCreated: new Date("2023-02-01"),
-  },
-  {
-    title: "Maximizing Productivity: Essential Tips for Python Developers",
-    body: "From automating repetitive tasks to using the right libraries, we will explore the strategies that can make you more efficient and effective in your work. Whether you're a seasoned veteran or a beginner, this guide will provide you with the knowledge and resources you need to take your Python skills to the next level",
-    href: "/articles/python-essentials/one",
-    dateCreated: new Date("2023-02-01"),
-  },
 ];
 
 const Articles = () => {
