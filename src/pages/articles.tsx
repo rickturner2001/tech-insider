@@ -12,17 +12,19 @@ const articles = [
 const Articles = () => {
   return (
     <Layout>
-      <main className="py-24 space-y-4 flex flex-col items-center h-full">
-        {articles.map((article, idx) => (
-          <ArticleContainer
-            key={idx}
-            body={article.body}
-            dateCreated={article.dateCreated}
-            title={article.title}
-            href={article.href}
-          />
-        ))}
-      </main>
+      <div className="w-full h-full bg-white dark:bg-gray-800 min-h-[71.5vh]">
+        <main className="py-24 space-y-4 flex flex-col items-center h-full ">
+          {articles.map((article, idx) => (
+            <ArticleContainer
+              key={idx}
+              body={article.body}
+              dateCreated={article.dateCreated}
+              title={article.title}
+              href={article.href}
+            />
+          ))}
+        </main>
+      </div>
     </Layout>
   );
 };
